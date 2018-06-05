@@ -84,6 +84,56 @@
                         "scale": ""
                     }
                 ]
+            },
+            {
+                "name": "PROMART_REGIONS",
+                "type": "TABLE",
+                "columns": 
+                [
+                    {
+                        "name": "REGION_ID",
+                        "type": "INTEGER",
+                        "length": "0",
+                        "primaryKey": "true",
+                        "identity": "true",
+                        "precision": "",
+                        "scale": ""
+                    },
+                    {
+                        "name": "REGION_NAME",
+                        "type": "VARCHAR",
+                        "length": "64",
+                        "primaryKey": "false",
+                        "identity": "false",
+                        "precision": "",
+                        "scale": ""
+                    }
+                ]
+            },
+            {
+                "name": "PROMART_COUNTRIES",
+                "type": "TABLE",
+                "columns": 
+                [
+                    {
+                        "name": "COUNTRY_ID",
+                        "type": "INTEGER",
+                        "length": "0",
+                        "primaryKey": "true",
+                        "identity": "true",
+                        "precision": "",
+                        "scale": ""
+                    },
+                    {
+                        "name": "COUNTRY_NAME",
+                        "type": "VARCHAR",
+                        "length": "64",
+                        "primaryKey": "false",
+                        "identity": "false",
+                        "precision": "",
+                        "scale": ""
+                    }
+                ]
             }
         ]
     }
