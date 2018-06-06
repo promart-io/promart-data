@@ -134,6 +134,31 @@
                         "scale": ""
                     }
                 ]
+            },
+            {
+                "name": "PROMART_UOM",
+                "type": "TABLE",
+                "columns": 
+                [
+                    {
+                        "name": "UOM_ID",
+                        "type": "INTEGER",
+                        "length": "0",
+                        "primaryKey": "true",
+                        "identity": "true",
+                        "precision": "",
+                        "scale": ""
+                    },
+                    {
+                        "name": "UOM_NAME",
+                        "type": "VARCHAR",
+                        "length": "64",
+                        "primaryKey": "false",
+                        "identity": "false",
+                        "precision": "",
+                        "scale": ""
+                    }
+                ]
             }
         ]
     }
